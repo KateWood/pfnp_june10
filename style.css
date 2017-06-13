@@ -1,7 +1,9 @@
+/*sets the background color of the page*/
 body {
   background-color: hotpink;
 }
 
+/*styles only the image with id headshot*/
 img#headshot {
   width: 150px;
   border: 2px solid black;
@@ -9,39 +11,47 @@ img#headshot {
   vertical-align: middle;
 }
 
+/*styles only the span with id title*/
 span#title {
   font-size: 30px;
   margin-left: 30%;
   font-weight: bold;
 }
 
+/*styles all elements with class sideBySide*/
 .sideBySide {
   display: inline-block;
   width: 48%;
 }
 
+/*styles all elements with class gallery*/
 .gallery {
   display: inline-block;
   width: 23%;
   height: 150px;
 }
 
+/*styles only the element with id gal1*/
 #gal1 {
   background: url(kittens.jpg);
 }
 
+/*styles only the element with id gal2*/
 #gal2 {
   background: url(kitten1.jpg);
 }
 
+/*styles only the element with id gal3*/
 #gal3 {
   background: url(kitten2.jpg);
 }
 
+/*styles only the element with id gal4*/
 #gal4 {
   background: url(kitten3.gif);
 }
 
+/*styles the element with ids gal1, gal2, gal3, and gal4*/
 #gal1, #gal2, #gal3, #gal4 {
   background-position: center;
   background-size: cover;

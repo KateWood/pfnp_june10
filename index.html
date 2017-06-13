@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html>
+  <!-- the head has information that we don't see in the browser window -->
   <head>
+    <!-- the title shows in the browser tab -->
     <title>About Kate</title>
+    <!-- Connects the CSS file to this file -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <!-- the body contains everything we see in the browser window -->
   <body>
+    <!-- div is division (generic container for block elements) -->
     <div>
+      <!-- img is an image tag and it's self-closing -->
+      <!-- src is the source attribute -->
+      <!-- this is sourced with a relative path, since the photo is in this folder -->
       <img src="kate_headshot.jpg" id="headshot">
+      <!-- span is a generic container for inline elements -->
       <span id="title">About Me</span>
     </div>
+    <!-- br is a line break -->
     <br/>
+    <!-- a is for anchor; this tag makes a clickable link -->
     <a href="mailto:katewood611@gmail.com">Contact</a>
+    <!-- h3 is the medium header tag (h1-h6) -->
     <h3>Education</h3>
+    <!-- p is paragraph -->
     <p>I have a BFA in Film & TV from New York University's Tisch School of the Arts. I studied Web Development at General Assembly in Santa Monica, CA.</p>
     <div class="sideBySide">
       <h3>Skills:</h3>
+      <!-- ul is unordered list, in which list items are bulleted -->
       <ul>
+        <!-- li is list item -->
         <li>HTML/CSS</li>
         <li>JavaScript</li>
         <li>Ruby</li>
@@ -23,6 +38,7 @@
     </div>
     <div class="sideBySide">
       <h3>Interests:</h3>
+      <!-- ol is ordered list, in which list items are numbered -->
       <ol>
         <li>Code</li>
         <li>Cats</li>
@@ -36,6 +52,7 @@
       <div class="gallery" id="gal3"></div>
       <div class="gallery" id="gal4"></div>
     </div>
+    <!-- we source JS at the bottom so that the HTML exists on the page already -->
     <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
