@@ -1,0 +1,48 @@
+body {
+  background-color: hotpink;
+}
+
+img#headshot {
+  width: 150px;
+  border: 2px solid black;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+span#title {
+  font-size: 30px;
+  margin-left: 30%;
+  font-weight: bold;
+}
+
+.sideBySide {
+  display: inline-block;
+  width: 48%;
+}
+
+.gallery {
+  display: inline-block;
+  width: 23%;
+  height: 150px;
+}
+
+#gal1 {
+  background: url(kittens.jpg);
+}
+
+#gal2 {
+  background: url(kitten1.jpg);
+}
+
+#gal3 {
+  background: url(kitten2.jpg);
+}
+
+#gal4 {
+  background: url(kitten3.gif);
+}
+
+#gal1, #gal2, #gal3, #gal4 {
+  background-position: center;
+  background-size: cover;
+}
